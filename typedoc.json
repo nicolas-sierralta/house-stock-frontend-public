@@ -1,0 +1,19 @@
+{
+    "entryPoints": [
+        "./src"
+    ],
+    "entryPointStrategy": "expand",
+    "out": "docs",
+    "exclude": [
+        "**/node_modules/**",
+        "**/src/components/nonReusable/ReviewOCRModal/ReviewOCRModal.styles.ts",
+        "**/src/components/reusable/DateInput/DateInput.tsx",
+        "**/src/components/reusable/ModalShared/ModalShared.styles.ts",
+        "**/src/components/reusable/TextInput/TextInput.tsx",
+        "**/src/screens/ProfileScreen/ProfileScreen.tsx"
+    ],
+    "tsconfig": "./tsconfig.json",
+    "excludeExternals": true,
+    "excludePrivate": true,
+    "excludeProtected": true
+}
